@@ -13,7 +13,7 @@ body {
 
 h1 {
     font-size: 2rem;
-    color:#381043;
+    color:#f7f7f7;
 }
 
 h2 {
@@ -23,6 +23,7 @@ h2 {
 }
 
 header, main, footer {
+    
     margin: 1.25rem auto;
     padding: .5rem;
     max-width: 600px;
@@ -34,7 +35,11 @@ header, footer, footer a {
     color: whitesmoke;
 }
 
+header,footer{
+    background-image: url(/George/Asignacion1/imagenes/fondo1.jpg);
+}
 header img {
+    
     width: 150px;
     height: auto;
     float: right;
